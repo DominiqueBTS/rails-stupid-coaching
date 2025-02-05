@@ -1,0 +1,6 @@
+
+<%= form_with url: '/ask', method: :post do |form| %>
+  <%= form.label :what_is_your_question? %>
+  <%= form.text_field :your_question %>
+  <%= form.submit 'Ask!' %>
+<% end %>

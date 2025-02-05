@@ -1,0 +1,29 @@
+<h1>Coach's Answer</h1>
+
+
+
+<% if @your_question == 'I am going to work' %>
+<div class="container">
+  <div class="bd-callout bd-callout-warning">
+    <strong>Great!</strong>
+    <p>- Coach</p>
+  </div>
+</div>
+
+<% elsif @your_question.include?('?') %>
+<div class="container">
+  <div class="bd-callout bd-callout-warning">
+    <strong>Silly question, get dressed and go to work!</strong>
+    <p>- Coach</p>
+  </div>
+</div>
+
+<% else %>
+<div class="container">
+  <div class="bd-callout bd-callout-warning">
+    <strong>I don't care, get dressed and go to work!</strong>
+    <p>- Coach</p>
+  </div>
+</div>
+
+<% end %>
