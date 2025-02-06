@@ -8,12 +8,12 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
- bd-callout-warning {
+ .bd-callout-warning {
   border-left-color: #aeadab;
   border-left-width: 3px;
 }
 
-bd-callout {
+.bd-callout {
   padding: 1.25rem;
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -25,4 +25,8 @@ bd-callout {
 }
 *, ::after, ::before {
   box-sizing: border-box;
+}
+
+.coach-text {
+ font-style: italic;
 }
